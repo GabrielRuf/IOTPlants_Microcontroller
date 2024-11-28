@@ -1,0 +1,1 @@
+{"plants": {"1": {"id": 1, "sensor": {"adc_pin": 33}, "name": "Planta1", "water_pump": {"gpio_pin": 27}}}}

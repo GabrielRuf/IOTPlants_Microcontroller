@@ -56,4 +56,4 @@ class Wifi():
             utime.sleep(1)
 
 # Instancia o objeto Wifi e inicia o processo
-Wifi()
+#Wifi()
