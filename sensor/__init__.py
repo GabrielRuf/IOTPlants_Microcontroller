@@ -1,7 +1,7 @@
 from machine import ADC, Pin
 
 class Sensor:
-    def __init__(self, adc_pin: int, calibration_min: int = 0, calibration_max: int = 4095):
+    def __init__(self, adc_pin: int, calibration_min: int = 2026, calibration_max: int = 4095):
         self.adc_pin = adc_pin
         self.adc = ADC(Pin(adc_pin))
         self.adc.width(ADC.WIDTH_12BIT)  # 12 bits = valores de 0 a 4095
